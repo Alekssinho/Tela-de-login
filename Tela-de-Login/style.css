@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+
+*{
+    font-family: "Macondo", cursive;
+    margin: 0;
+    padding: 0;
+}
+body{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 100vh;
+   background: linear-gradient( #093f07, #4ba123, #478a28, #38491f)
+   
+}
+#Login{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 320px;
+    gap: 20px;
+    position: relative;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    background-color: rgb(191, 197, 189);
+    border-radius: 20px;
+   
+    
+}
+
+#email{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 25px;   
+}
+
+#email input{
+    border-radius: 5px;
+    border: 1px solid black ;
+    padding: 10px;
+    width: 200px;
+}
+
+#senha{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+}
+
+#senha input{
+    border-radius: 5px;
+    border: 1px solid black ;
+    padding: 10px;
+    width: 200px;
+}
+
+button{
+    background-color: #4ba123;
+    color: white;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor:pointer;
+    padding: 10px 20px;
+    width: 100px;
+    
+}
+
+  
+
+ 
