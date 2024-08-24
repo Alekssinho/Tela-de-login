@@ -73,6 +73,12 @@ button{
     width: 100px;
     
 }
+#Login form{
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
   
 
